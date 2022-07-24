@@ -1,0 +1,170 @@
+/* media queries para celulres: hasta 576px
+   media queries para tablets: entre 577px y 768px
+   media queries para pc: desde 769px */
+
+
+
+@media only screen and (max-width: 576px){
+
+    /* ENCABEZADO */
+header{
+    width: 115vw;
+    display: flex;
+   }
+.name_page{
+    height: max-content;
+    align-self: center;
+   }
+.name_page h1{
+    font-size: 13vw;
+}
+
+/* INDEX */
+.grid-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.clases-padel{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    background-color: bisque;
+    width: 113vw;
+}
+.poggi, .poggi2{
+    margin: 8px 0;
+}
+.reseña1{
+    width: 113vw;
+}
+.first{
+    width: 113vw;
+    margin-right: 1rem;
+}
+.second{
+    width: 113vw;
+    margin-right: 1rem;
+}
+.copyright{
+    width: 113vw;
+}
+
+/* MAIN PAGE */
+.main_notice h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.note_image{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 0 0.5rem;
+}
+.note_image .area1 img{
+    width: 113vw;
+    align-items: center;
+}
+.note_image .area1 footer{
+    width: 96vw;
+}
+.area2 p{
+    width: 111vw;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.area2{
+    padding-left: .5rem;
+    
+}
+
+/* SECOND PAGE */
+.notice h1{
+    font-size: 4rem;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem .5rem 0 1rem;
+    width: 113vw;
+
+}
+.notice .grid img{
+    width: 111vw;
+}
+.notice .grid footer{
+    margin-bottom: 1rem;
+}
+.grid2{
+    display: flex;
+    flex-direction: column;
+    width: 113vw;
+    padding: 2rem .5rem 0.5rem 1rem;
+}
+.grid2 img{
+    width: 111vw;
+}
+.notice .grid2 footer{
+    margin-bottom: 1rem;
+}
+
+/* THIRD PAGE */
+.notice h1{
+    font-size: 3rem;
+}
+.notice .grid .primera-imagen img{
+    width: 105vw;
+    margin-right: 0;
+}
+.notice .grid .primera-imagen{
+    margin-bottom: 1rem;
+}
+.notice .grid .texto{
+    margin-right: .5rem;
+}
+.grid2-1{
+    display: flex;
+    flex-direction: column;
+    width: 111vw;
+}
+.notice .grid2-1 .segunda-imagen img{
+    width: 105vw;
+    margin-right: 1rem;
+    justify-items: flex-start;
+} 
+.notice .grid2-1 .segunda-imagen footer{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.grid3{
+    display: flex;
+    flex-direction: column;
+    width: 111vw;
+}
+.notice .grid3 .tercera-imagen img{
+    width: 105vw;
+    margin-top: 1rem;
+}
+.notice .grid3 .tercera-imagen footer{
+    margin-bottom: 1rem;
+}
+.notice .grid3 .texto3{
+    margin: 0;
+    padding: 0;
+}
+.enlace-instagram{
+    width: 113vw;
+}
+
+/* ABOUT */
+.about{
+    width: 109vw;
+}
+.about p{
+    text-align: justify;
+}
+
+/* CONTACT */
+body{
+    height: auto;
+}
+}

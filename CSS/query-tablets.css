@@ -1,0 +1,164 @@
+@media screen and (min-width: 577px) and (max-width: 768px){
+   /* INDEX */
+   body{
+    height:auto;
+   }
+    
+   .name_page{
+    height: max-content;
+    align-self: center;
+   }
+   .encabezado{
+    display: flex;
+    width: 105vw;
+   }
+   .encabezado .name_page h1{
+    font-size: 4rem;
+   }
+   .first{
+    margin-left: 3px;
+   }
+   .second{
+    margin-left: 6px;
+    margin-right: 6px;
+   }
+   .clases-padel{
+    flex-direction: column;
+    align-items: center;
+   }
+   .poggi footer{
+    margin-bottom: 1rem;
+   }
+
+   /* MAIN PAGE */
+
+   .main_notice h1{
+    font-size: 5rem;
+   }
+   .note_image{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 0 0.5rem;
+}
+.note_image .area1 img{
+    width: 100vw;
+    align-items: center;
+}
+.note_image .area1 footer{
+    width: 96vw;
+}
+.area2 p{
+    width: 96vw;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.area2{
+    padding-left: .5rem;
+    
+}
+
+/* SECOND PAGE */
+
+.notice h1{
+    font-size: 4rem;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem .5rem 0 1rem;
+    width: 96vw;
+
+}
+.notice .grid img{
+    width: 96vw;
+}
+.notice .grid footer{
+    margin-bottom: 1rem;
+}
+.grid2{
+    display: flex;
+    flex-direction: column;
+    width: 96vw;
+    padding: 2rem .5rem 0.5rem 1rem;
+}
+.grid2 img{
+    width: 96vw;
+}
+.notice .grid2 footer{
+    margin-bottom: 1rem;
+}
+.copyright{
+    width: 105vw;
+}
+
+
+/* THIRD PAGE */
+
+.notice h1{
+    font-size: 3rem;
+}
+.notice .grid .primera-imagen img{
+    width: 100vw;
+    margin-right: 0;
+}
+.notice .grid .primera-imagen{
+    margin-bottom: 1rem;
+}
+.notice .grid .texto{
+    margin-right: .5rem;
+}
+.grid2-1{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.notice .grid2-1 .segunda-imagen img{
+    width: 96vw;
+    margin-right: 1rem;
+    justify-items: flex-start;
+} 
+.notice .grid2-1 .segunda-imagen footer{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.grid3{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.notice .grid3 .tercera-imagen img{
+    width: 100vw;
+    margin-top: 1rem;
+}
+.notice .grid3 .tercera-imagen footer{
+    margin-bottom: 1rem;
+}
+.notice .grid3 .texto3{
+    margin: 0;
+    padding: 0;
+}
+.enlace-instagram{
+    width: 100vw;
+}
+
+/* CONTACT */
+
+.phone-number{
+    display: flex;
+}
+
+/* ABOUT */
+.about p{
+    text-align: justify;
+}
+.about{
+    width: 100vw;
+}
+
+   
+
+
+
+
+
+}

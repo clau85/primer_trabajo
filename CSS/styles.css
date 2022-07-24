@@ -1,0 +1,390 @@
+body{
+    background-color: gainsboro;
+    width: 100%;
+    height: 100%;
+}
+*{
+    padding:0;
+    margin:0
+    
+}
+/* ENCABEZADO DE LA PAGINA */
+header{
+    display: flex;
+    width: 100vw;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2jONJTxljiIdBiXJa2TPza9I2kqhslEQABQ&usqp=CAU);
+
+}
+.logo{
+width: 200px;
+height: 100%;
+}
+.logo:hover{
+    transform: rotateY(360deg);
+    transition-duration: 3s;
+}
+.name_page{
+    margin-bottom: .5rem;
+    width: 100%;
+}
+.name_page h1{
+    color: whitesmoke;
+    height: 100%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7rem;
+    font-style: italic;
+    text-shadow: 3px 3px 6px rgb(117, 117, 117);
+}
+.grid-container{
+    display: grid;
+    padding: .5rem;
+    width: 96vw;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "reseña1 reseña1"
+    "first second";
+}
+.first{
+    grid-area: first;
+    width: 49vw;
+    margin: .5rem 0;
+    background-color: lightslategray;
+    text-shadow: 3px 3px 6px rgb(117, 117, 117);
+     
+}
+.reseña1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    width: 99vw;
+
+}
+.reseña1 p{
+    font-size: 25px;
+    text-shadow: 3px 3px 6px rgb(117, 117, 117);
+}
+.second{
+    grid-area: second;
+    width: 49vw;
+    margin:.5rem 0;
+    background-color: lightslategray;
+    text-shadow: 3px 3px 6px rgb(117, 117, 117);
+    
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+.lista li a{
+    font-size: 20px;
+}
+.copyright{
+    background-color: gray;
+    margin-top: 10px;
+    width: 100vw;
+}
+.copyright p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    text-shadow: 3px 3px 6px rgb(117, 117, 117);
+}
+.reseña1 h1{
+    justify-items: center;
+    font-size: 4rem;
+    text-shadow: 3px 3px 6px rgb(117, 117, 117);
+}
+li{
+    list-style: none;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 3px 3px 6px rgb(117, 117, 117);
+}
+.first p, .second p{
+    font-size: 20px;
+}
+
+/* NOTICIA PRINCIPAL */
+.main_notice{
+    padding: 0 2rem 0 0;
+
+}
+.main_notice h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: 3px 3px 6px rgb(117, 117, 117);
+}
+.note_image{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "imagen parrafo"
+    "imagen parrafo"
+    "imagen parrafo";
+    justify-items: flex-start;
+    padding: 1rem 1rem 1rem 1rem;
+}   
+
+.note_image .area1 img{
+    width: 100%;
+}
+.note_image p{
+    font-size: 26px;
+    max-width: 80ch;
+    align-items: flex-start;
+    text-align: justify;
+}
+.area2 p::first-letter{
+    font-size: 4rem;
+    color: blanchedalmond;
+    background-color: brown;
+    float: left;
+    line-height: 4rem;
+    padding-right: .5rem;
+}
+footer{
+    font-size: 1rem;
+    text-align: left;
+}
+.area1{
+    grid-area: imagen;
+    width: 50vw;
+    margin-top: 0rem;
+}
+.area2{
+    grid-area: parrafo;
+    width: 50vw;
+    padding: 0 1rem;
+}
+nav ul li a{
+    text-decoration: underline;
+    color: blue;
+}
+
+/* SEGUNDA NOTICIA */
+
+.notice h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 3px 3px 6px rgb(117, 117, 117);
+}
+
+.grid div img{
+    width: 60vw;
+}
+.grid{
+    display: flex;
+    padding: 0 1rem;
+}
+.grid2-1{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.grid2-1 img{
+    width: 40vw;
+    padding: 0 1rem;
+}
+.grid2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.grid2 img{
+    width: 40vw;
+    padding: 0 1rem;
+}
+.texto{
+    padding: 0 0 0 1rem;
+}
+.texto p::first-letter{
+    font-size: 4rem;
+    color: blanchedalmond;
+    background-color: brown;
+    float: left;
+    line-height: 4rem;
+    padding-right: .5rem;
+}
+.texto p{
+    font-size: 26px;
+    max-width: 80ch;
+    align-items: flex-start;
+    text-align: justify;
+}
+
+.texto2-1 p{
+    font-size: 26px;
+    max-width: 80ch;
+    align-items: flex-start;
+    text-align: justify;
+}
+.texto2 p{
+    font-size: 26px;
+    max-width: 80ch;
+    align-items: flex-start;
+    text-align: justify;
+}
+.grid2 footer{
+    margin: 0 1rem;
+}
+/* TERCERA NOTICIA */
+
+.enlace-externo{
+    color: blue;
+    text-decoration: underline;
+}
+.grid3 div img{
+    width: 60vw;
+}
+.grid3{
+    display: flex;
+    padding: 1rem 1rem;
+}
+.grid2-1{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.texto3 p{
+    font-size: 26px;
+    max-width: 80ch;
+    align-items: flex-start;
+    text-align: justify;
+}
+.texto3{
+    padding: 0 0 0 1rem;
+}
+.notice .grid .primera-imagen img{
+    width: 40vw;
+}
+.notice .grid2-1 .segunda-imagen img{
+    width: 40vw;
+    margin-right: .5rem;
+}
+.notice .grid3 .tercera-imagen img{
+    width: 40vw;
+}
+
+.enlace-instagram{
+    margin-left: 1rem;
+    background-color: yellowgreen;
+}
+.enlace-instagram p{
+    text-align: center;
+    font-size: 28px;
+    font-style: italic;
+}
+.notice .grid2-1 .segunda-imagen footer{
+    text-align: center;
+}
+
+footer{
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* ABOUT */
+.about{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem 2rem 1rem;
+    align-items: center;
+}
+.about p{
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    max-width: 100ch;
+}
+
+/* CONSEJOS DEL DIA */
+.aside{
+    grid-area: aside;
+    text-shadow: 3px 3px 6px rgb(117, 117, 117);
+}
+.clases-padel{
+    display: flex;
+    justify-content: space-evenly;
+}
+.aside h1{
+    text-align: center;
+    font-size: 3rem;
+}
+/* FORMULARIO */
+.grid-form{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin: 2rem;
+    justify-content: flex-start;
+/*     grid-template-columns: repeat(2, 20vw);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:
+    "name name"
+    "lastname lastname"
+    "phone-number phone-number"
+    "e-mail e-mail"
+    "description description"
+    "submit reset"; */
+}
+.grid-form label{
+    font-size: 20px;
+}
+.name{
+    grid-area: name;
+    margin: .5rem;
+}
+.lastname{
+    grid-area: lastname;
+    margin: .5rem;
+}
+.phone-number{
+    grid-area: phone-number;
+    margin: .5rem;
+}
+.e-mail{
+    grid-area: e-mail;
+    margin: .5rem;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    grid-area: description;
+    margin: .5rem;
+}
+.submit{
+    grid-area: submite;
+    margin: .5rem;
+}
+.reset{
+    grid-area: reset;
+    margin: .5rem;
+}
+.description label{
+    align-content: flex-start;
+}
+.duda p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:28px;
+    text-align: left;
+    text-shadow: 3px 3px 6px rgb(117, 117, 117);   
+    margin: 2rem 1rem;
+}
+.description label{
+    margin-right: 0.5rem;
+}
+.buttons{
+    display: flex;
+}
